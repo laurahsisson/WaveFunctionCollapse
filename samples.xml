@@ -1,7 +1,7 @@
 <samples>
   <!-- <overlapping name="Knot" N="3" size="150" periodic="True"/> -->
   <!-- <simpletiled name="Knots" subset="Full" size="100" periodic="True" screenshots="2"/> -->
-  <simpletiled name="Circuit" subset="Wireless" size="34" periodic="True" screenshots="3"/>
+  <simpletiled name="Circuit" subset="Wireless" size="34" periodic="True" screenshots="2"/>
  <!--  <overlapping name="Chess" N="2" periodic="True"/>
   <overlapping name="Chess" N="2" size="47" periodic="True" screenshots="1"/>
   <overlapping name="Skyline" N="3" symmetry="2" ground="True" periodic="True"/>

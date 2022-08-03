@@ -185,3 +185,18 @@
 /Users/laurasisson/Desktop/WaveFunctionCollapse/obj/Release/WaveFunctionCollapse.pdb
 /Users/laurasisson/Desktop/WaveFunctionCollapse/obj/Release/WaveFunctionCollapse.genruntimeconfig.cache
 /Users/laurasisson/Desktop/WaveFunctionCollapse/obj/Release/ref/WaveFunctionCollapse.dll
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/.DS_Store
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/bridge.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/component.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/connection.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/corner.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/dskew.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/skew.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/substrate.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/t.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/track.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/transition.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/turn.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/viad.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/vias.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/wire.png

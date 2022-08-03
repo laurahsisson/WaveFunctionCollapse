@@ -164,20 +164,20 @@
 	</neighbors>
 	<subsets>
 		<subset name="Wireless">
-			<tile name="bridge"/>
+			<!-- <tile name="bridge"/> -->
 			<tile name="component" weight="4"/>
 			<tile name="connection"/>
 			<tile name="corner"/>
 			<tile name="substrate" weight="8"/>
-			<tile name="t"/>
+			<tile name="t" weight=".5"/>
 			<tile name="track"/>
 			<!-- <tile name="transition"/> -->
 			<tile name="turn"/>
 			<!-- <tile name="viad"/> -->
-			<tile name="vias"/>
+			<tile name="vias" weight=".5"/>
 			<!-- <tile name="wire" weight="5"/> -->
 			<tile name="skew"/>
-			<tile name="dskew"/>
+			<!-- <tile name="dskew"/> -->
 		</subset>
 		<subset name="Full">
 			<tile name="bridge"/>
