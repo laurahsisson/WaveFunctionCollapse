@@ -1,0 +1,7 @@
+component 0, component 0, component 0, component 0, connection 3, dskew 0, connection 1, 
+component 0, component 0, component 0, component 0, connection 3, dskew 0, connection 1, 
+component 0, component 0, component 0, component 0, connection 3, dskew 0, connection 1, 
+component 0, component 0, component 0, component 0, connection 3, dskew 0, connection 1, 
+component 0, component 0, component 0, component 0, connection 3, dskew 0, connection 1, 
+component 0, component 0, component 0, component 0, connection 3, dskew 0, connection 1, 
+component 0, component 0, component 0, component 0, connection 3, dskew 0, connection 1, 

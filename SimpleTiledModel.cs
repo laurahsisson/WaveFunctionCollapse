@@ -19,11 +19,17 @@ class SimpleTiledModel : Model
         bool unique = xroot.Get("unique", false);
 
         List<string> subset = null;
+        Dictionary<string, double> weightSubset = new Dictionary<string, double>();
+
         if (subsetName != null)
         {
             XElement xsubset = xroot.Element("subsets").Elements("subset").FirstOrDefault(x => x.Get<string>("name") == subsetName);
             if (xsubset == null) Console.WriteLine($"ERROR: subset {subsetName} is not found");
-            else subset = xsubset.Elements("tile").Select(x => x.Get<string>("name")).ToList();
+            else 
+            {
+                subset = xsubset.Elements("tile").Select(x => x.Get<string>("name")).ToList();
+                weightSubset = xsubset.Elements("tile").Select(x=> new KeyValuePair<string, double>(x.Get<string>("name"), x.Get("weight",1.0))).ToDictionary(x=>x.Key, x=>x.Value);
+            }
         }
 
         static int[] tile(Func<int, int, int> f, int size)
@@ -37,10 +43,10 @@ class SimpleTiledModel : Model
 
         tiles = new List<int[]>();
         tilenames = new List<string>();
-        var weightList = new List<double>();
 
         var action = new List<int[]>();
         var firstOccurrence = new Dictionary<string, int>();
+        var weightList = new List<double>();
 
         foreach (XElement xtile in xroot.Element("tiles").Elements("tile"))
         {
@@ -135,7 +141,17 @@ class SimpleTiledModel : Model
                 }
             }
 
-            for (int t = 0; t < cardinality; t++) weightList.Add(xtile.Get("weight", 1.0));
+            for (int t = 0; t < cardinality; t++) 
+            {
+                if (weightSubset.ContainsKey(tilename)) 
+                {
+                    weightList.Add(weightSubset[tilename]);
+                } 
+                else
+                {
+                    weightList.Add(xtile.Get("weight", 1.0));
+                }
+            }
         }
 
         T = action.Count;

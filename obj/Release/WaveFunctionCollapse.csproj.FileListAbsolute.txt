@@ -1,0 +1,187 @@
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/3Bricks.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Angular.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/BrownFox.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Cat.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Cats.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Cave.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Chess.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Circle.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/City.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/ColoredCity.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Disk.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Dungeon.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Fabric.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Flowers.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Font.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Forest.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Hogs.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Knot.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Lake.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/LessRooms.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Lines.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Link.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Link2.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/MagicOffice.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Maze.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Mazelike.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/MoreFlowers.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Mountains.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Nested.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/NotKnot.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Office.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Office2.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Paths.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Platformer.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Qud.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/RedDot.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/RedMaze.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Rooms.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Rule126.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Sand.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/ScaledMaze.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Sewers.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/SimpleKnot.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/SimpleMaze.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/SimpleWall.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Skew1.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Skew2.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Skyline.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Skyline2.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/SmileCity.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Spirals.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Town.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/TrickKnot.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Village.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Wall.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/WalledDot.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Water.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples/Wrinkles.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Castle.xml
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Castle/bridge.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Castle/ground.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Castle/river.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Castle/riverturn.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Castle/road.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Castle/roadturn.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Castle/t.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Castle/tower.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Castle/wall.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Castle/wallriver.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Castle/wallroad.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circles.xml
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circles/b.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circles/b_half.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circles/b_i.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circles/b_quarter.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circles/w.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circles/w_half.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circles/w_i.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circles/w_quarter.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit.xml
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/bridge.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/component.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/connection.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/corner.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/dskew.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/skew.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/substrate.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/t.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/track.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/transition.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/turn.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/viad.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/vias.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/wire.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan.xml
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/div.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/divt.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/divturn.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/door.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/empty.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/floor.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/glass.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/halfglass.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/in.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/out.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/stairs.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/table.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/vent.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/w.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/wall.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/walldiv.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/FloorPlan/window.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Knots.xml
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Knots/corner.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Knots/cross.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Knots/empty.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Knots/line.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Knots/t.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Rooms.xml
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Rooms/bend.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Rooms/corner.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Rooms/corridor.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Rooms/door.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Rooms/empty.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Rooms/side.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Rooms/t.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Rooms/turn.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Rooms/wall.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer.xml
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/cliff 0.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/cliff 1.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/cliff 2.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/cliff 3.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/cliffcorner 0.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/cliffcorner 1.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/cliffcorner 2.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/cliffcorner 3.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/cliffturn 0.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/cliffturn 1.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/cliffturn 2.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/cliffturn 3.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/grass 0.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/grasscorner 0.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/grasscorner 1.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/grasscorner 2.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/grasscorner 3.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/road 0.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/road 1.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/road 2.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/road 3.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/roadturn 0.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/roadturn 1.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/roadturn 2.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/roadturn 3.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/watercorner 0.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/watercorner 1.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/watercorner 2.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/watercorner 3.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/waterside 0.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/waterside 1.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/waterside 2.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/waterside 3.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/waterturn 0.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/waterturn 1.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/waterturn 2.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/waterturn 3.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/water_a 0.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/water_b 0.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Summer/water_c 0.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/samples.xml
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/WaveFunctionCollapse
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/WaveFunctionCollapse.deps.json
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/WaveFunctionCollapse.runtimeconfig.json
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/WaveFunctionCollapse.dll
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/WaveFunctionCollapse.pdb
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/SixLabors.ImageSharp.dll
+/Users/laurasisson/Desktop/WaveFunctionCollapse/obj/Release/WaveFunctionCollapse.csproj.AssemblyReference.cache
+/Users/laurasisson/Desktop/WaveFunctionCollapse/obj/Release/WaveFunctionCollapse.GeneratedMSBuildEditorConfig.editorconfig
+/Users/laurasisson/Desktop/WaveFunctionCollapse/obj/Release/WaveFunctionCollapse.AssemblyInfoInputs.cache
+/Users/laurasisson/Desktop/WaveFunctionCollapse/obj/Release/WaveFunctionCollapse.AssemblyInfo.cs
+/Users/laurasisson/Desktop/WaveFunctionCollapse/obj/Release/WaveFunctionCollapse.csproj.CoreCompileInputs.cache
+/Users/laurasisson/Desktop/WaveFunctionCollapse/obj/Release/WaveFunctionCollapse.csproj.CopyComplete
+/Users/laurasisson/Desktop/WaveFunctionCollapse/obj/Release/WaveFunctionCollapse.dll
+/Users/laurasisson/Desktop/WaveFunctionCollapse/obj/Release/refint/WaveFunctionCollapse.dll
+/Users/laurasisson/Desktop/WaveFunctionCollapse/obj/Release/WaveFunctionCollapse.pdb
+/Users/laurasisson/Desktop/WaveFunctionCollapse/obj/Release/WaveFunctionCollapse.genruntimeconfig.cache
+/Users/laurasisson/Desktop/WaveFunctionCollapse/obj/Release/ref/WaveFunctionCollapse.dll
