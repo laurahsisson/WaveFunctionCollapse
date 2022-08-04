@@ -46,7 +46,9 @@ static class Program
                 model = new SimpleTiledModel(name, subset, width, height, periodic, blackBackground, heuristic);
             }
 
-            for (int i = 0; i < xelem.Get("screenshots", 2); i++)
+            int imgcount = xelem.Get("screenshots", 2);
+
+            for (int i = 0; i < imgcount; i++)
             {
                 for (int k = 0; k < 10; k++)
                 {
@@ -56,9 +58,14 @@ static class Program
                     if (success)
                     {
                         Console.WriteLine("DONE");
-                        model.Save($"output/{name} {seed}.png");
+                        string fname = $"output/{name}";
+                        if (imgcount>1) {
+                            fname = $"output/{name} {seed}";
+                        }
+                        Console.WriteLine($"{fname}.png");
+                        model.Save($"{fname}.png");
                         if (model is SimpleTiledModel stmodel && xelem.Get("textOutput", false))
-                            System.IO.File.WriteAllText($"output/{name} {seed}.txt", stmodel.TextOutput());
+                            System.IO.File.WriteAllText($"{fname}.txt", stmodel.TextOutput());
                         break;
                     }
                     else Console.WriteLine("CONTRADICTION");
