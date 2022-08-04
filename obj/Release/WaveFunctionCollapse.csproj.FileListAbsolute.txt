@@ -200,3 +200,4 @@
 /Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/viad.png
 /Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/vias.png
 /Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit copy/wire.png
+/Users/laurasisson/Desktop/WaveFunctionCollapse/bin/Release/tilesets/Circuit/wall.png

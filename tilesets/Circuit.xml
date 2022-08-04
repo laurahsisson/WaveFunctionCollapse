@@ -1,19 +1,20 @@
 <set>
 	<tiles>
-		<tile name="bridge" symmetry="I" weight="1.0"/>
-		<tile name="component" symmetry="X" weight="20.0"/>
-		<tile name="connection" symmetry="T" weight="10.0"/>
-		<tile name="corner" symmetry="L" weight="10.0"/>
-		<tile name="substrate" symmetry="X" weight="2.0"/>
-		<tile name="t" symmetry="T" weight="0.1"/>
-		<tile name="track" symmetry="I" weight="2.0"/>
-		<tile name="transition" symmetry="T" weight="0.4"/>
-		<tile name="turn" symmetry="L" weight="1.0"/>
-		<tile name="viad" symmetry="I" weight="0.1"/>
-		<tile name="vias" symmetry="T" weight="0.3"/>
-		<tile name="wire" symmetry="I" weight="0.5"/>
-		<tile name="skew" symmetry="L" weight="2.0"/>
-		<tile name="dskew" symmetry="\" weight="2.0"/>
+		<tile name="bridge" symmetry="I"/>
+		<tile name="component" symmetry="X"/>
+		<tile name="connection" symmetry="T"/>
+		<tile name="wall" symmetry="T"/>
+		<tile name="corner" symmetry="L"/>
+		<tile name="substrate" symmetry="X"/>
+		<tile name="t" symmetry="T"/>
+		<tile name="track" symmetry="I"/>
+		<tile name="transition" symmetry="T"/>
+		<tile name="turn" symmetry="L"/>
+		<tile name="viad" symmetry="I"/>
+		<tile name="vias" symmetry="T"/>
+		<tile name="wire" symmetry="I"/>
+		<tile name="skew" symmetry="L"/>
+		<tile name="dskew" symmetry="\"/>
 	</tiles>
 	<neighbors>
 		<neighbor left="bridge" right="bridge"/>
@@ -161,20 +162,27 @@
 		<neighbor left="vias 2" right="skew"/>
 		<neighbor left="vias 3" right="skew 2"/>
 		<neighbor left="wire 1" right="skew"/>
+
+		<neighbor left="substrate 1" right="wall 1"/>
+		<neighbor left="wall 1" right="component"/>
+		<neighbor left="connection" right="wall"/>
+		<neighbor left="wall" right="wall"/>
+		<neighbor left="wall" right="corner"/>
 	</neighbors>
 	<subsets>
 		<subset name="Wireless">
 			<!-- <tile name="bridge"/> -->
 			<tile name="component" weight="4"/>
+			<tile name="wall"/>
 			<tile name="connection"/>
 			<tile name="corner"/>
-			<tile name="substrate" weight="8"/>
+			<tile name="substrate" weight="12"/>
 			<tile name="t" weight=".5"/>
 			<tile name="track"/>
 			<!-- <tile name="transition"/> -->
 			<tile name="turn"/>
 			<!-- <tile name="viad"/> -->
-			<tile name="vias" weight=".5"/>
+			<!-- <tile name="vias" weight=".5"/> -->
 			<!-- <tile name="wire" weight="5"/> -->
 			<tile name="skew"/>
 			<!-- <tile name="dskew"/> -->
