@@ -47,10 +47,11 @@ static class Program
             }
 
             int imgcount = xelem.Get("screenshots", 2);
+            int retries = xelem.Get("retries", 10);
 
             for (int i = 0; i < imgcount; i++)
             {
-                for (int k = 0; k < 10; k++)
+                for (int k = 0; k < retries; k++)
                 {
                     Console.Write("> ");
                     int seed = random.Next();
@@ -60,7 +61,7 @@ static class Program
                         Console.WriteLine("DONE");
                         string fname = $"output/{name}";
                         if (imgcount>1) {
-                            fname = $"output/{name} {seed}";
+                            fname = $"output/{name}{seed}";
                         }
                         Console.WriteLine($"{fname}.png");
                         model.Save($"{fname}.png");
@@ -68,7 +69,7 @@ static class Program
                             System.IO.File.WriteAllText($"{fname}.txt", stmodel.TextOutput());
                         break;
                     }
-                    else Console.WriteLine("CONTRADICTION");
+                    else Console.WriteLine($"CONTRADICTION{k}");
                 }
             }
         }
