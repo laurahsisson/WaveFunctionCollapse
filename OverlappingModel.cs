@@ -3,6 +3,7 @@
 using System;
 using System.Collections.Generic;
 
+[Serializable]
 class OverlappingModel : Model
 {
     List<byte[]> patterns;

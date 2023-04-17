@@ -1,7 +1,14 @@
 ﻿// Copyright (C) 2016 Maxim Gumin, The MIT License (MIT)
 
 using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Xml.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.Serialization;
 
+
+[Serializable]
 abstract class Model
 {
     protected bool[][] wave;
@@ -22,9 +29,13 @@ abstract class Model
     protected int[] sumsOfOnes;
     double sumOfWeights, sumOfWeightLogWeights, startingEntropy;
     protected double[] sumsOfWeights, sumsOfWeightLogWeights, entropies;
+    private List<Model> backups;
 
     public enum Heuristic { Entropy, MRV, Scanline };
     Heuristic heuristic;
+    int l = 0;
+    private int backupfreq = 1000;
+    private float backoff = .8f;
 
     protected Model(int width, int height, int N, bool periodic, Heuristic heuristic)
     {
@@ -34,6 +45,7 @@ abstract class Model
         this.periodic = periodic;
         this.heuristic = heuristic;
     }
+
 
     void Init()
     {
@@ -65,9 +77,11 @@ abstract class Model
         sumsOfWeights = new double[MX * MY];
         sumsOfWeightLogWeights = new double[MX * MY];
         entropies = new double[MX * MY];
+        backups = new List<Model>();
 
         stack = new (int, int)[wave.Length * T];
         stacksize = 0;
+
     }
 
     public bool Run(int seed, int limit)
@@ -77,14 +91,24 @@ abstract class Model
         Clear();
         Random random = new(seed);
 
-        for (int l = 0; l < limit || limit < 0; l++)
+        for (; l < limit || limit < 0; l++)
         {
+            if (l % backupfreq == 0) {
+                Console.WriteLine($"Backup on {l}");
+                // Want to save on l = 0 so that if we fail before first backup we don't crash.
+                backups.Add(DeepClone());
+            }
+
             int node = NextUnobservedNode(random);
             if (node >= 0)
             {
                 Observe(node, random);
                 bool success = Propagate();
-                if (!success) return false;
+                if (!success) {
+                    int index = (int) ((l* backoff)/backupfreq);
+                    Console.WriteLine($"Failing on l={l}. Reading from idx={index}.");
+                    return backups[index].Run(seed,limit);
+                } 
             }
             else
             {
@@ -94,6 +118,17 @@ abstract class Model
         }
 
         return true;
+    }
+
+    // Stole this from StackOverflow https://stackoverflow.com/questions/129389/how-do-you-do-a-deep-copy-of-an-object-in-net thx
+    public Model DeepClone(){
+        using (MemoryStream stream = new MemoryStream())
+        {
+            BinaryFormatter formatter = new BinaryFormatter();
+            formatter.Serialize(stream, this);
+            stream.Position = 0;
+            return (Model) formatter.Deserialize(stream);
+        }
     }
 
     int NextUnobservedNode(Random random)

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Xml.Linq;
 using System.Collections.Generic;
 
+[Serializable]
 class SimpleTiledModel : Model
 {
     List<int[]> tiles;
